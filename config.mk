@@ -1,5 +1,5 @@
 PRODUCT_SOONG_NAMESPACES += \
-    vendor/xiaomi/miuicamera
+    vendor/xiaomi/miuiapps
 
 PRODUCT_PACKAGES += \
     MiuiExtraPhoto \
