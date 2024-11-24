@@ -16,6 +16,7 @@ android_app_import {
 	name: "MiuiGallery",
 	owner: "MiuiGallery",
 	apk: "proprietary/system/priv-app/MiuiGallery/MiuiGallery.apk",
+	overrides: ["Gallery", "Glimpse", "Gallery1"],
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
