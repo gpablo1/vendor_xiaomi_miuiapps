@@ -23,3 +23,14 @@ android_app_import {
 	},
 	privileged: true,
 }
+
+android_app_import {
+	name: "MiuiMediaViewer",
+	owner: "MiuiMediaViewer",
+	apk: "proprietary/system/priv-app/MiuiMediaViewer/MiuiMediaViewer.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+}
