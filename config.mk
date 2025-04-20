@@ -2,9 +2,13 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/xiaomi/miuiapps
 
 PRODUCT_PACKAGES += \
-    MiuiExtraPhoto \
     MiuiGallery \
     MiuiMediaViewer
+
+#PRODUCT_PACKAGES += \
+#    MiuiExtraPhoto \
+#    MiuiGallery \
+#    MiuiMediaViewer
 
 # permissions
 PRODUCT_COPY_FILES += \
