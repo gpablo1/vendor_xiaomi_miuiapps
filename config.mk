@@ -4,6 +4,7 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_PACKAGES += \
     MiuiGallery \
     MiuiMediaViewer \
+    MIMediaEditorGlobal \
     privapp-com.miui.gallery.xml \
     config-com.miui.gallery.xml \
     default-com.miui.gallery.xml \
@@ -14,9 +15,6 @@ PRODUCT_PACKAGES += \
 #    MiuiGallery \
 #    MiuiMediaViewer
 
-# permissions
-PRODUCT_COPY_FILES += \
-    vendor/xiaomi/miuiapps/proprietary/system/etc/permissions/privapp-permissions-mediaviewer.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-mediaviewer.xml
 
 # Xiaomi Gallery framework dependencies
 PRODUCT_COPY_FILES += \
