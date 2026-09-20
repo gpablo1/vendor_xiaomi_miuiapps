@@ -5,10 +5,13 @@ PRODUCT_PACKAGES += \
     MiuiGallery \
     MiuiMediaViewer \
     MIMediaEditorGlobal \
+    MiuiScanner \
     privapp-com.miui.gallery.xml \
     config-com.miui.gallery.xml \
     default-com.miui.gallery.xml \
-    micloud-sdk.xml
+    micloud-sdk.xml \
+    XiaomiAIService \
+    XiaomiHyperAIEngine
 
 #PRODUCT_PACKAGES += \
 #    MiuiExtraPhoto \

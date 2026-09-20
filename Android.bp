@@ -74,3 +74,35 @@ android_app_import {
     },
     privileged: true,
 }
+
+android_app_import {
+    name: "MiuiScanner",
+    owner: "xiaomi",
+    apk: "proprietary/system/priv-app/MiuiScanner/MiuiScanner.apk",
+    certificate: "platform",
+    dex_preopt: {
+        enabled: false,
+    },
+    privileged: true,
+}
+
+android_app_import {
+    name: "XiaomiAIService",
+    owner: "xiaomi",
+    apk: "proprietary/system/priv-app/XiaomiAIService/XiaomiAIService.apk",
+    certificate: "platform",
+    dex_preopt: {
+        enabled: false,
+    },
+    privileged: true,
+}
+android_app_import {
+    name: "XiaomiHyperAIEngine",
+    owner: "xiaomi",
+    apk: "proprietary/system/priv-app/XiaomiHyperAIEngine/XiaomiHyperAIEngine.apk",
+    certificate: "platform",
+    dex_preopt: {
+        enabled: false,
+    },
+    privileged: true,
+}
